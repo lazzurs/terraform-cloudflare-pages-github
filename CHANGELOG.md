@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.1.7 - 2025-11-03
+#### Bug Fixes
+- **(dependabot)** bump cloudflare/cloudflare from 5.8.4 to 5.12.0 - (93d114a) - dependabot[bot]
+
+- - -
+
 ## v0.1.6 - 2025-08-31
 #### Bug Fixes
 - **(dependabot)** bump actions/checkout from 4 to 5 - (de9ab01) - dependabot[bot]
