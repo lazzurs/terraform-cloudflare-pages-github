@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.1.8 - 2025-11-26
+#### Bug Fixes
+- (**dependabot**) bump cloudflare/cloudflare from 5.12.0 to 5.13.0 - (cf2c0dd) - dependabot[bot]
+- (**dependabot**) bump actions/checkout from 5 to 6 - (b7032dd) - dependabot[bot]
+- (**dependabot**) bump cocogitto/cocogitto-action from 3 to 4 - (b2a1dec) - dependabot[bot]
+- Update release step to use bump command with auto args - (95fac5f) - Rob Lazzurs
+- Update cocogitto-action to use check with --from-latest-tag - (2b5e224) - Rob Lazzurs
+- Update workflow to check only latest tag for commits - (4544909) - Rob Lazzurs
+
+- - -
+
 ## v0.1.7 - 2025-11-03
 #### Bug Fixes
 - **(dependabot)** bump cloudflare/cloudflare from 5.8.4 to 5.12.0 - (93d114a) - dependabot[bot]
