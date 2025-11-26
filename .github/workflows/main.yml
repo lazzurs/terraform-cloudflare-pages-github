@@ -3,8 +3,8 @@ name: Tag release
 on:
   push:
     branches:
-      - '!**'
-      - 'main'
+      - "!**"
+      - "main"
 
 jobs:
   tag-release:
@@ -20,6 +20,8 @@ jobs:
           fetch-depth: 0
       - name: Check for conventional commits
         uses: cocogitto/cocogitto-action@v4
+        with:
+          check-latest-tag-only: true
       - name: Get next version
         id: next_version
         run: |
@@ -30,8 +32,8 @@ jobs:
         with:
           check-latest-tag-only: true
           release: true
-          git-user: 'GitHubActions'
-          git-user-email: 'github@lazzurs.org'
+          git-user: "GitHubActions"
+          git-user-email: "github@lazzurs.org"
       - name: Generate Changelog
         run: cog changelog --at ${{ steps.release.outputs.version }} -t full_hash > GITHUB_CHANGELOG.md
       - name: Upload github release
