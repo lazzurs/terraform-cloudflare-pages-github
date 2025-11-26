@@ -31,8 +31,8 @@ jobs:
         id: release
         uses: cocogitto/cocogitto-action@v4
         with:
-          check-latest-tag-only: true
-          release: true
+          command: bump
+          args: --auto
           git-user: "GitHubActions"
           git-user-email: "github@lazzurs.org"
       - name: Generate Changelog
