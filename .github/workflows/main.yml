@@ -21,7 +21,8 @@ jobs:
       - name: Check for conventional commits
         uses: cocogitto/cocogitto-action@v4
         with:
-          check-latest-tag-only: true
+          command: check
+          args: --from-latest-tag
       - name: Get next version
         id: next_version
         run: |
