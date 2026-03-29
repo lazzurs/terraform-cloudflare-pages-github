@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.1.10 - 2026-03-29
+#### Bug Fixes
+- (**dependabot**) bump cloudflare/cloudflare from 5.16.0 to 5.18.0 - (21e2d94) - dependabot[bot]
+
+- - -
+
 ## v0.1.9 - 2026-02-12
 #### Bug Fixes
 - (**dependabot**) bump cloudflare/cloudflare from 5.13.0 to 5.16.0 - (2338f4a) - dependabot[bot]
