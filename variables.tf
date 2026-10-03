@@ -47,3 +47,9 @@ variable "github_repo_name" {
   description = "Name of the GitHub repository"
   type        = string
 }
+
+variable "custom_domains" {
+  description = "Custom domains to attach to the project (DNS records are managed separately)"
+  type        = list(string)
+  default     = []
+}
