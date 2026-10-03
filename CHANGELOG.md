@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.2.0 - 2026-10-03
+#### Features
+- support Cloudflare provider v5 and custom domains - (6f276c7) - Rob Lazzurs
+
+- - -
+
 ## v0.1.10 - 2026-03-29
 #### Bug Fixes
 - (**dependabot**) bump cloudflare/cloudflare from 5.16.0 to 5.18.0 - (21e2d94) - dependabot[bot]
