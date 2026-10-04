@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.2.1 - 2026-10-04
+#### Bug Fixes
+- stop sending empty lists that the v5 provider can't round-trip - (073f635) - Rob Lazzurs
+
+- - -
+
 ## v0.2.0 - 2026-10-03
 #### Features
 - support Cloudflare provider v5 and custom domains - (6f276c7) - Rob Lazzurs
