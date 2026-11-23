@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.2.2 - 2026-11-23
+#### Bug Fixes
+- (**dependabot**) bump softprops/action-gh-release from 2 to 3 - (d9781fb) - dependabot[bot]
+
+- - -
+
 ## v0.2.1 - 2026-10-04
 #### Bug Fixes
 - stop sending empty lists that the v5 provider can't round-trip - (073f635) - Rob Lazzurs
