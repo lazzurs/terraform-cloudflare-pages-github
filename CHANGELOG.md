@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file. See [conven
 - - -
 ## v0.2.2 - 2026-11-23
 #### Bug Fixes
+- (**dependabot**) bump actions/checkout from 6 to 7 - (f5d16e7) - dependabot[bot]
+- (**dependabot**) bump softprops/action-gh-release from 2 to 3 - (d9781fb) - dependabot[bot]
+#### Chores
+- (**version**) v0.2.2 - (d6cc9a1) - GitHubActions
+
+- - -
+
+## v0.2.2 - 2026-11-23
+#### Bug Fixes
 - (**dependabot**) bump softprops/action-gh-release from 2 to 3 - (d9781fb) - dependabot[bot]
 
 - - -
